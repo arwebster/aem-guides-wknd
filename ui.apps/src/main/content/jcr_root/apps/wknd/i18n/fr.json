@@ -1,3 +1,18 @@
 {
-  "&amp;copy; {0} WKND Sites Project Site. All rights reserved." : "&amp;copy; {0} WKND Sites Project Site. Tous droits réservés."
+
+  "&amp;copy; {0} WKND Sites Project Site. All rights reserved.":
+    "&amp;copy; {0} WKND Sites Project Site. Tous droits réservés.",
+
+  "The contributor's name to display.":
+    "Le nom du contributeur/de la contributrice",
+
+  "Enter the contributor's name to display.":
+    "Entrez le nom du contributeur/de la contributrice.",
+
+  "A list of the contributor's occupations.":
+    "Une liste des professions du contributeur.",
+
+  "Enter an occupation":
+    "Entrez une profession"
+
 }
