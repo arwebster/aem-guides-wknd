@@ -1,0 +1,17 @@
+.cmp-starrating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-bottom: 7px;
+}
+
+.cmp-starrating__stars {
+    color: $yellow;
+    font-weight: $font-weight-bold;
+}
+
+.cmp-starrating__stars-grey {
+    color: $gray-light;
+    font-weight: $font-weight-bold;
+}
