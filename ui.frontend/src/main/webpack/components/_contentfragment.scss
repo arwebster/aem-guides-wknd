@@ -1,5 +1,25 @@
 .cmp-contentfragment {}
-// .cmp-contentfragment--<name>{}
+
+.cmp-contentfragment--skatepark {
+    dt {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .cmp-contentfragment__element--skateParkName {
+        display: none;
+    }
+}
+
+.cmp-contentfragment--skatepark-raw {
+    img {
+        display: none;
+    }
+}
+
 .cmp-contentfragment__title {}
 .cmp-contentfragment__description {}
 .cmp-contentfragment__elements {}

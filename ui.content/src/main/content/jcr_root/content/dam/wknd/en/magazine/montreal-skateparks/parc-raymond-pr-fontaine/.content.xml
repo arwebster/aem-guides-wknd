@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6ee1deae-2fb6-429e-a8d4-6890152f7743">
+    <jcr:content
+        cq:name="parc-raymond-pr-fontaine"
+        cq:parentPath="/content/dam/wknd/en/magazine/montreal-skateparks"
+        jcr:lastModified="{Date}2022-11-01T10:59:05.810-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Parc Raymond Préfontaine"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-01T10:59:05.810-04:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/skate-park"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                parkDescription="&lt;p>One of Montréal’s older skateparks remains a popular spot with skaters and can be easily accessed by the Préfontaine métro station. This is a great option if you want to spend a few hours on its rails and ramps working on your tricks. Another plus is that the Rollin’ boardshop is also just across the street, so you can stop by pre- or post-skate and check out some truly awesome equipment.&amp;nbsp;&lt;/p>&#xa;"
+                parkDescription_x0040_ContentType="text/html"
+                parkDescription_x0040_LastModified="{Date}2022-11-01T10:58:59.403-04:00"
+                parkImage="/content/dam/wknd/en/magazine/montreal-skateparks/raymondprefontaine.jpg"
+                parkImage_x0040_LastModified="{Date}2022-11-01T10:58:59.402-04:00"
+                skateParkName="Parc Raymond Préfontaine"
+                skateParkName_x0040_LastModified="{Date}2022-11-01T10:58:59.402-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured"/>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2022-11-01T11:04:14.868-04:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a22de74f-cf55-4394-8c1e-18a93bc35a18">
+    <jcr:content
+        cq:name="parc-p-re-marquette"
+        cq:parentPath="/content/dam/wknd/en/magazine/montreal-skateparks"
+        jcr:lastModified="{Date}2022-11-01T11:02:27.676-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Parc Père Marquette"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-01T11:02:27.676-04:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/skate-park"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                parkDescription="&lt;p>Like a refreshing desert oasis, this skatepark provides an ultra-cool escape for skateboard, scooter and BMX enthusiasts. Inaugurated in 2018, and built with the input of local skateboarders, it features fun obstacles, ledges, rails, manual pads and awesome flow. The vibe here is very welcoming, and this spot is a favourite among families, with picnic tables and the rest of the park to enjoy.&amp;nbsp;&lt;/p>&#xa;"
+                parkDescription_x0040_ContentType="text/html"
+                parkDescription_x0040_LastModified="{Date}2022-11-01T11:02:27.653-04:00"
+                parkImage="/content/dam/wknd/en/magazine/montreal-skateparks/peremarquette.jpg"
+                parkImage_x0040_LastModified="{Date}2022-11-01T11:02:27.653-04:00"
+                skateParkName="Parc Père Marquette"
+                skateParkName_x0040_LastModified="{Date}2022-11-01T11:02:27.652-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

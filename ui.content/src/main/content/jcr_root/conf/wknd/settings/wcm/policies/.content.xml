@@ -415,6 +415,33 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1645635768264>
             </breadcrumb>
+            <contentfragment jcr:primaryType="nt:unstructured">
+                <policy_1667333554318
+                    cq:styleDefaultClasses="cmp-contentfragment--skatepark-raw"
+                    jcr:lastModified="{Date}2022-11-02T00:45:23.816-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Skate park"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-contentfragment--skatepark"
+                                    cq:styleId="1667333560754"
+                                    cq:styleLabel="Styled"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-contentfragment--skatepark-raw"
+                                    cq:styleId="1667362828619"
+                                    cq:styleLabel="None"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1667333554318>
+            </contentfragment>
         </components>
     </wknd>
 </jcr:root>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f294e1ce-95e4-49ff-97ad-daaf7791f01d">
+    <jcr:content
+        cq:name="Van Horne Skatepark"
+        cq:parentPath="/content/dam/wknd/en/magazine/montreal-skateparks"
+        jcr:lastModified="{Date}2022-11-01T21:17:52.630-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Van Horne Skatepark"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-01T21:17:52.630-04:00">
+        <comments
+            jcr:created="{Date}2022-11-01T09:45:28.653-04:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2022-11-01T09:45:28.692-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/comments/components/collection">
+            <please_review
+                jcr:created="{Date}2022-11-01T09:45:28.692-04:00"
+                jcr:createdBy="admin"
+                jcr:description="please review"
+                jcr:lastModified="{Date}2022-11-01T09:45:28.692-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/comments/components/comment"
+                annotationData="\{&quot;texts&quot;:[&quot;please review&quot;],&quot;variation&quot;:&quot;master&quot;,&quot;element&quot;:&quot;parkDescription&quot;}"
+                author="admin"/>
+        </comments>
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/skate-park"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                parkDescription="&lt;p>This skate park, for non-exclusive use by skateboarders, also features street furniture, a stage, removable modules, and effect lighting for the presentation of various events. This project meets a pressing need for youth-oriented facilities in central neighbourhoods, where the visual arts meet skateboarding and music. It was built in collaboration with the Association Skateboard Montréal (ASM).&lt;/p>&#xa;&lt;p>&lt;span class=&quot;rte-annotation&quot; data-annotation=&quot;please_review&quot;>Artists can perform on the stage, on a first come, first served basis. Permit holders will be given priority. The permit is required to use the electrical hookup system (camlock 120/240V with a capacity of 100 amperes).&lt;/span>&lt;/p>&#xa;"
+                parkDescription_x0040_ContentType="text/html"
+                parkDescription_x0040_LastModified="{Date}2022-11-01T14:02:41.193-04:00"
+                parkImage="/content/dam/wknd/en/magazine/montreal-skateparks/vanhorne.jpg"
+                parkImage_x0040_LastModified="{Date}2022-10-28T10:55:09.678-04:00"
+                skateParkName="Van Horne Skatepark"
+                skateParkName_x0040_LastModified="{Date}2022-10-28T10:46:45.306-04:00"/>
+            <short_desc
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-10-28T10:55:27.220-04:00"
+                parkDescription="&lt;p>A skate park in Mile End, Montreal, this lively space is home to the best skaters in the city!&lt;/p>&#xa;"
+                parkDescription_x0040_ContentType="text/html"
+                parkDescription_x0040_LastModified="{Date}2022-10-28T10:55:53.379-04:00"
+                parkImage="/content/dam/wknd/en/magazine/montreal-skateparks/vanhorne.jpg"
+                parkImage_x0040_LastModified="{Date}2022-10-28T10:55:27.224-04:00"
+                skateParkName="Van Horne Skatepark"
+                skateParkName_x0040_LastModified="{Date}2022-10-28T10:55:27.223-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <short_desc
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Short Desc"
+                    name="short_desc">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[skateParkName:3ced3b12-6aee-499a-8223-7ab6aed2093b,parkImage:3ced3b12-6aee-499a-8223-7ab6aed2093b,parkDescription:3ced3b12-6aee-499a-8223-7ab6aed2093b]"/>
+                </short_desc>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
